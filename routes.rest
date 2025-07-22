@@ -1,0 +1,38 @@
+// LOCALHOST
+
+### GET all Pokémon
+GET http://localhost:3000/pokemon
+
+### GET Pokémon by ID
+GET http://localhost:3000/pokemon/687ef6c7f7cff46e086df973
+
+### POST Pokémon
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+  "name": "Pikachu",
+  "type": "Electric",
+  "level": 25,
+  "hp": 120,
+  "attack": 55,
+  "defense": 40,
+  "moves": ["Thunderbolt", "Quick Attack", "Iron Tail", "Electro Ball"]
+}
+
+### PUT Pokémon (update)
+PUT http://localhost:3000/pokemon/687ef6c7f7cff46e086df973
+Content-Type: application/json
+
+{
+  "name": "Pikachu",
+  "type": "Electric",
+  "level": 25,
+  "hp": 120,
+  "attack": 55,
+  "defense": 40,
+  "moves": ["Thunderbolt", "Quick Attack", "Iron Tail", "Electro Ball"]
+}
+
+### DELETE Pokémon
+DELETE http://localhost:3000/pokemon/687ef6c7f7cff46e086df973
