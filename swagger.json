@@ -5,10 +5,9 @@
     "description": "pokemon api",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-part2.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
